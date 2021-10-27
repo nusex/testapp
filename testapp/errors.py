@@ -1,0 +1,6 @@
+class TestappError(Exception):
+    ...
+
+
+class OtherError(TestappError):
+    ...
